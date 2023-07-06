@@ -1,5 +1,7 @@
-Implementation of light weight hashing algorithms in IOT devices
-Abstract:
+**Implementation of light weight hashing algorithms in IOT devices**
+
+**Abstract:**
+
 In this modern world, technological advancements have grown more complex and at the same
 time have made user lives easier and easier. In this broad term of technology exists a very
 important factor applied to almost all technological products which is the security of the
@@ -28,7 +30,8 @@ considerations that need to be taken into account. The results demonstrate that 
 hash functions can provide an effective solution for securing IoT devices while minimizing
 resource consumption. 
 
-Existing System Issue:
+**Existing System Issue:**
+
 1. Security: One of the most significant issues with IoT devices is security. Many IoT
 devices are vulnerable to cyber-attacks, which can result in data breaches, theft of sensitive
 information, and even physical harm to individuals. By implementing hash functions, IoT
@@ -49,7 +52,8 @@ devices.
 By addressing these existing system issues, the implementation of hash functions for IoT
 devices can help improve the security and reliability of IoT devices and enable the
 development of more robust and reliable IoT applications.
-Algorithm Used:
+
+**Algorithm Used:**
 
 The Quark hashing algorithm was designed as a cryptographic hash function that is highly
 resistant to collision attacks. The algorithm operates on a message input and produces a
@@ -68,17 +72,17 @@ used in various security applications.
 Overall, the conclusion of the analysis and testing of the Quark hashing algorithm is that it is
 a highly secure and efficient cryptographic hash function that provides strong protection
 against a range of attacks.
-Diagram:
-Quark: A Light-weight hash function
 
-Results:
+**Results:**
 The Quark hash algorithm produces a fixed-length output of 32 bytes (256 bits). This output is
 considered secure and is used for a variety of applications, including cryptocurrency mining,
 digital signatures, and authentication protocols. The output of the Quark hash algorithm is
 also uniformly distributed, meaning that every possible output is equally likely to be
 generated, which is an important property for cryptographic algorithms. Overall, the Quark
 hashing algorithm is considered a secure and efficient cryptographic hash function.
-Comparative Study:
+
+**Comparative Study:**
+
 We compared the performance of quark hashing with several other hash functions, including
 MD5, SHA-1, SHA-2, and SHA-3. The results showed that quark hashing performed better than
 MD5 and SHA-1 in terms of collision resistance and was comparable to SHA-2 and SHA-3.
@@ -88,3 +92,23 @@ In this study, they compared the performance of quark hashing with BLAKE2 and SH
 results showed that quark hashing performed better than SHA-3 in terms of collision
 resistance. However, quark hashing was found to be slower than SHA-3 in terms of
 computation speed. 
+
+**Conclusion:**
+
+The Quark hashing algorithm was designed as a cryptographic hash function that is highly
+resistant to collision attacks. The algorithm operates on a message input and produces a
+fixedsize hash output, which can be used for data integrity verification, authentication, and
+other security applications.
+After extensive analysis and testing, the Quark hashing algorithm has been shown to have
+several important security properties, including resistance to preimage attacks, second
+preimage attacks, and collision attacks. In other words, it is highly unlikely for an attacker to
+find two different messages that produce the same hash value (collision), or to find a message
+that produces a specific hash value (preimage attack) or to find a second message that
+produces the same hash as a given message (second preimage attack).
+The Quark hashing algorithm is also designed to be efficient and computationally lightweight,
+making it suitable for use in a wide range of applications where secure hash functions are
+required. It has been implemented in several software libraries and frameworks and is widely
+used in various security applications.
+Overall, the conclusion of the analysis and testing of the Quark hashing algorithm is that it is
+a highly secure and efficient cryptographic hash function that provides strong protection
+against a range of attacks. 
